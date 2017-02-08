@@ -1,0 +1,102 @@
+﻿* {
+	padding: 0; 
+	margin:0;
+}
+p {
+	margin: 0.7em 0;
+	line-height:1.8em;
+}
+dl {
+	margin:1em 0;
+}
+dt 
+{
+	font-weight:bold;
+}
+dd 
+{
+	margin:0.5em;
+	padding:0;
+}
+img 
+{
+	background:url(img/shadow.gif) no-repeat right bottom;
+	padding:4px 10px 10px 4px;	
+	border:0;
+	border-top:#eee 1px solid;
+	border-left:#eee 1px solid;	
+}
+img.right {
+	float: right;
+	margin:10px 0 0 10px;		
+}
+img.left {
+	float: left; 
+	margin:0 10px 10px 0;	
+}
+a:link img,
+a:visited img,
+a:hover img,
+a:active img {
+	border:none;
+	background:none;
+	padding:none;
+	background:url(img/shadow.gif) no-repeat right bottom;
+	padding:4px 10px 10px 4px;	
+	border-top:#eee 1px solid;
+	border-left:#eee 1px solid;		
+}
+img.wp-smiley, #wpstats, img.noborder, a img.noborder {
+	background: none;
+	border: 0;
+	padding: 0;
+}
+.clear {
+	clear:both;
+	height:20px;
+}
+blockquote
+{
+	color:#666;
+	margin: 1em;
+	padding: 0 0 10px 50px;
+	background: url(img/blockquote.gif) no-repeat left top;	
+}
+fieldset 
+{
+	border:0;
+}
+body 
+{
+	background: #333333;
+	margin: 0; 
+	font: 76%/1.6em verdana, tahoma, arial,  sans-serif; 
+	color: #333; 
+	align: center;
+}
+a 
+{
+    text-decoration:none;
+}
+a:link, a:visited {
+	color: red;	
+}
+a:hover{
+	color: blue;	
+}
+h1, h2, h3, h4, h5, h6 
+{
+	font-family:Georgia, Verdana, Arial, Serif;
+}
+
+.alignleft 
+{
+	float:left;
+	text-align:left;	
+}
+.alignright
+{
+	float:right;
+	text-align:right;	
+}
+

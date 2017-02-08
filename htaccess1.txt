@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?liangdesign.com$
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^www\.liangdesign.com [NC]
+RewriteRule (.*) http://www.liangdesign.com/$1 [R=302,L]
+
